@@ -1,0 +1,28 @@
+Mission : Analysez nos données de 2024 et présentez-moi un rapport permettant de mieux comprendre notre activité et d'éclairer nos décisions futures
+
+
+Colonne					Description
+Date	        			Date de réservation
+Time	        			Heure de réservation
+Booking ID				Identifiant unique pour chaque réservation
+Booking Status				Status de réservation (Completed, Cancelled by Customer, Cancelled by Driver, etc.)
+Customer ID				Identifiant unique d'utilisateur
+Vehicle Type				Type de véhicule (Go Mini, Go Sedan, Auto, eBike/Bike, UberXL, Premier Sedan)
+Pickup Location				Lieu de départ du trajet
+Drop Location				Lieu d’arrivée du trajet
+Avg VTAT				Temps moyen nécessaire au chauffeur pour atteindre le lieu de prise en charge (en minutes)
+Avg CTAT				Durée moyenne du trajet entre le lieu de prise en charge et la destination (en minutes)
+Cancelled Rides by Customer		Indicateur d’annulation à l’initiative du client
+Reason for cancelling by Customer	Motif de l’annulation par le client
+Cancelled Rides by Driver		Indicateur d’annulation à l’initiative du chauffeur
+Driver Cancellation Reason		Motif de l’annulation par le chauffeur
+Incomplete Rides			Indicateur de trajet incomplet
+Incomplete Rides Reason			Motif du trajet incomplet
+Booking Value				Montant total du trajet
+Ride Distance				Distance parcourue pendant le trajet (en km)
+Driver Ratings				Note donnée par le chauffeur (de 1-5)
+Customer Rating				Note donnée par le client (de 1-5)
+Payment Method				Méthode de paiement (UPI, Cash, Credit Card, Uber Wallet, Debit Card)
+
+UPI (Unified Payments Interface) : système de paiement instantané très utilisé en Inde, qui permet de payer directement depuis un compte bancaire via une application mobile
+eBike/Bike : vélo électronique/vélo
